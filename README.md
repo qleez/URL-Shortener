@@ -1,15 +1,12 @@
 # Author
-![@Rafase282](https://avatars0.githubusercontent.com/Rafase282?&s=128)
 
-Created by Rafase282
+Created by Qian Shao
 
-[Github](https://github.com/Rafase282) | [FreeCodeCamp](http://www.freecodecamp.com/rafase282) | [CodePen](http://codepen.io/Rafase282/) | [LinkedIn](https://www.linkedin.com/in/rafase282) | [Blog/Site](https://rafase282.wordpress.com/) | [E-Mail](mailto:rafase282@gmail.com)
-
-# FreeCodeCamp API Basejump: URL Shortener Microservice
-## User stories:
-1. I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
-2. If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.
-3. When I visit that shortened URL, it will redirect me to my original link.
+# FreeCodeCamp API Projects: URL Shortener Microservice
+## 用户故事：
+1. 用户在浏览器输入该地址时，把一个合法的 URL 作为参数，返回一个 JSON 格式的段地址
+2. 如果用户输入的是一个无效的 URL 地址（不符合 http://www.example.com 格式）作为参数，则返回错误
+3. 如果用户输入前边生成的段地址，则会重定向到相应的合法地址
 
 ## Example creation usage:
 
