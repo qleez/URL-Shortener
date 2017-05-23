@@ -7,28 +7,15 @@ block content
         div
             h2(style = "color: red;")= err
   
-    img(src="https://avatars0.githubusercontent.com/Rafase282?&s=128" alt="My Face")
-    p
-      a(href="mailto:rafase282@gmail.com") 
-        i(class="fa fa-envelope fa-fw")
-      a(href="https://github.com/Rafase282" target="_blank") 
-        i(class="fa fa-github fa-fw")
-      a(href="https://www.linkedin.com/in/rafase282" target="_blank") 
-        i(class="fa fa-linkedin")
-      a(href="http://codepen.io/Rafase282" target="_blank") 
-        i(class="fa fa-codepen")
-      a(href="https://rafase282.wordpress.com/" target="_blank") 
-        i(class="fa fa-wordpress")
-      a(href="http://www.freecodecamp.com/rafase282" target="_blank")
-        i(class="fa fa-fire fa-fw")
-    p Created by Rafael (Rafase282) Rodriguez.
+    p Created by Qian Shao.
     h1(class="header")
-      | FreeCodeCamp API Basejump: URL Shortener Microservice
+      | FreeCodeCamp API Projects: URL Shortener Microservice
     blockquote
       p User stories:
       ul
-        li I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</ul>
-        li When I visit that shortened URL, it will redirect me to my original link.</ul>
+        li 用户在浏览器输入该地址时，把一个合法的 URL 作为参数，返回一个 JSON 格式的段地址
+        li 如果用户输入的是一个无效的 URL 地址（不符合 http://www.example.com 格式）作为参数，则返回错误
+        li 如果用户输入前边生成的段地址，则会重定向到相应的合法地址
     h3 Example creation usage:
     code.
         https://little-url.herokuapp.com/new/https://www.google.com
